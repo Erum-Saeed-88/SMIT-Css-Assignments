@@ -1,0 +1,239 @@
+/* poppins font import method */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* poetsenone font download method */
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url("./assests/fonts/PoetsenOne-Regular.ttf");
+}
+/* universal styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+/* parent styling */
+.container {
+    display: flex;
+    height: 100vh;
+}
+/* sidebar styling */
+.sidedp {
+    width: 20%;
+    background-color: teal;
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+}
+.dp {
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.3rem solid rgb(24, 190, 190 );
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+ul li {
+    padding-bottom: 1.2em;
+    margin-left: 0;
+    font-family: sans-serif;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(7, 62, 62);
+    font-size: 1.1em;
+    font-family: PoetsenOne;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+/* about section styling */
+
+.contents {
+    width: 80%;
+    padding: 20px;
+    margin-left: 20%;
+    padding: 160px 48px;
+    height: 100%;
+}
+h1 {
+    font-family: PoetsenOne;
+    font-size: 65px;
+    color: rgb(14, 91, 91);
+}
+#about {
+    padding-top: 100px;
+}
+
+span {
+    color:rgb(24, 190, 190);
+    font-family: PoetsenOne;
+}
+
+p {
+    font-family: poppins;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.email {
+    text-decoration: none;
+    color: teal;
+    font-family: poppins;
+}
+
+.email:hover {
+    color: rgb(24, 190, 190);
+}
+
+.p2 {
+    padding-top: 2.5em;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color:teal;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+
+}
+
+.social:hover {
+    background-color:rgb(24, 190, 190) ;
+}
+
+.icons {
+    padding-top: 50px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* Experience, education & other contents styling */
+
+#experience {
+    margin-top: auto;
+}
+.three {
+
+    /*padding-left: 3rem;
+    padding-right: 3rem;*/
+    width: 80%;
+    /*padding: 10px;*/
+    margin-left: 20%;
+    padding: 16px 48px;
+    height: 100%;
+    margin-top: 5em;
+}
+.thre {
+    padding: 0;
+}
+
+.three h2 {
+    font-family: PoetsenOne;
+    color: teal;
+    font-size: 2em;
+    margin-bottom: 5.2rem;
+    text-transform: uppercase;
+}
+
+.flexgrow {
+    padding-right: 3em;
+    flex-grow: 1;
+}
+
+.left {
+    display: flex;
+    line-height: 2em;
+}
+
+.right {
+    flex-shrink: 0;
+    font-family: poppins;
+    color: rgb(24, 190, 190);
+}
+
+h3,
+h4 {
+    font-family: poppins;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: rgb(21, 142, 142) ;
+}
+
+h4 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:rgb(24, 190, 190) ;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.pp {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    color: #6c757d;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icn {
+    margin-right: 0.5em;
+    font-size: 3em;
+    color: #6c757d;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 2em;
+    color: #6c757d;
+}
+
+#awards {
+    margine-top: auto;
+}
+.span{
+    color:teal;
+    padding-right: 1em;
+}
+
+  hr {
+    background-color: teal;
+  }
